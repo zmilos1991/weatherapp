@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+    <title>Weather Application</title>
+	
+</head>
+
+<body>
+    
+    <div class="wrapper centar">
+        <h1>Weather application</h1>
+    </div>
+    
+   <div class="wrapper">
+       <div id="selectDay" class="centar">
+           
+           <h2>Choose weather information for following day</h2><br>
+           
+            <a href="#" onclick="selectDay(0)" class="dayButton">Monday</a>
+            <a href="#" onclick="selectDay(1)" class="dayButton">Tuesday</a>
+            <a href="#" onclick="selectDay(2)" class="dayButton">Wednesday</a>
+            <a href="#" onclick="selectDay(3)" class="dayButton">Thursday</a>
+            <a href="#" onclick="selectDay(4)" class="dayButton">Friday</a>
+            <a href="#" onclick="selectDay(5)" class="dayButton">Saturday</a>
+            <a href="#" onclick="selectDay(6)" class="dayButton">Sunday</a>
+           
+       </div><!-- end of #selectDay -->
+       
+       <div id="widget">
+        <span>Temperature: </span><span id="temperature"></span><span id="degree">&#730;C</span><br>
+           
+        <span>Wind direction: </span><span id="wind-direction" class="grey"></span><br>
+           <img id="direction-image" src=""/><br>
+           
+        <span>Wind speed: </span><span id="wind-speed" class="grey"></span><span class="grey">m/s</span><br>
+           
+        <span>Type: </span><span id="type" class="grey"></span><br>
+            <img id="type-image" src=""/><br>
+       </div><!-- end of #widget -->
+
+   </div>
+    
+   <script src="javascript.js"></script>
+</body> 
+</html>
+ 

@@ -1,0 +1,103 @@
+@charset "UTF-8";
+body {
+	margin:0;
+	padding:0;
+	background: #f2f2f2;
+	font-size:14px;
+    font-family: 'Open Sans', sans-serif;
+	color: #6f868c;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin:0.5em 0 0.5em;
+	color:#0066ff;
+}  
+h1 { font-size:3em;}
+h2 { font-size:2.2em;}
+h3 { font-size:2em;}
+h4 { font-size:1.6em;}
+h5 { font-size:1.4em;}
+h6 { font-size:1.2em;}
+
+p {
+	margin:0.3em 0 0.5em;
+    color:#0066ff;
+}
+span {
+    color:#0066ff;
+    font-size: 18px;
+    padding: 10px 2px;
+}
+a{
+    text-decoration: none;
+    color:#0066ff;
+}
+.wrapper {
+	width:960px;
+	margin:0 auto;
+}
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.centar{
+    text-align: center;
+}
+#selectDay{
+    padding:20px;
+}
+.dayButton{
+    margin:5px;
+    font-size:20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.dayButton:hover{
+    margin:5px;
+    font-size:20px;
+    font-weight: bold;
+    background-color: #0066ff;
+    color:#FFF;
+    padding: 10px;
+}
+#widget{
+    width:300px;
+    margin:10px auto;
+    border: 2px solid #0066ff;
+    border-radius: 5px;
+    padding:10px;
+    box-shadow: 5px 5px 3px #aaaaaa;
+}
+#direction-image{
+    margin:4px;
+    width: 50px;
+}
+#wind-direction{
+    text-transform: capitalize;
+    font-size: 25px;
+}
+#type{
+    text-transform: capitalize;
+    font-size: 25px;
+}
+#type-image{
+    width: 150px;
+    position: relative;
+    left:75px;
+}
+#temperature{
+    font-size: 32px;
+    font-weight: bold;
+    color: #e8a427;
+}
+#degree{
+    font-size: 32px;
+    font-weight: bold;
+    color: #e8a427;
+}
+#wind-speed{
+    font-size: 25px;
+}
+.grey{
+    color:#4d4d4d;
+}
